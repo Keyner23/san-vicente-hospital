@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "san-vicente-hospital/1.0.0": {
+        "runtime": {
+          "san-vicente-hospital.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "san-vicente-hospital/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

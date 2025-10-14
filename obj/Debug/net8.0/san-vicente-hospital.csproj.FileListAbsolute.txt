@@ -1,0 +1,15 @@
+/home/Coder/Escritorio/KABO/san-vicente-hospital/bin/Debug/net8.0/san-vicente-hospital
+/home/Coder/Escritorio/KABO/san-vicente-hospital/bin/Debug/net8.0/san-vicente-hospital.deps.json
+/home/Coder/Escritorio/KABO/san-vicente-hospital/bin/Debug/net8.0/san-vicente-hospital.runtimeconfig.json
+/home/Coder/Escritorio/KABO/san-vicente-hospital/bin/Debug/net8.0/san-vicente-hospital.dll
+/home/Coder/Escritorio/KABO/san-vicente-hospital/bin/Debug/net8.0/san-vicente-hospital.pdb
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/san-vicente-hospital.GeneratedMSBuildEditorConfig.editorconfig
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/san-vicente-hospital.AssemblyInfoInputs.cache
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/san-vicente-hospital.AssemblyInfo.cs
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/san-vicente-hospital.csproj.CoreCompileInputs.cache
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/san-vicente-hospital.sourcelink.json
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/san-vicente-hospital.dll
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/refint/san-vicente-hospital.dll
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/san-vicente-hospital.pdb
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/san-vicente-hospital.genruntimeconfig.cache
+/home/Coder/Escritorio/KABO/san-vicente-hospital/obj/Debug/net8.0/ref/san-vicente-hospital.dll
