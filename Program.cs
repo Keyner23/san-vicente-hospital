@@ -9,6 +9,10 @@ var patientRepository = new PatientRepository();
 var patientServiceservice = new PatientService(patientRepository);
 var doctorRepository = new DoctorRepository();
 var doctorService = new DoctorService(doctorRepository);
+var appointmentRepository = new AppointmentRepository();
+var appointmentService = new AppointmentService(appointmentRepository);
+
+
 int opcion;
 do
 {
@@ -37,6 +41,7 @@ do
             Console.ReadLine();
             break;
         case 3:
+            Console.WriteLine("");
             Console.WriteLine("---- REGISTAR DOCTORES ----");
             Console.WriteLine("---------------------------");
             doctorService.AddDoctor();
@@ -45,6 +50,7 @@ do
             Console.ReadLine();
             break;
         case 4:
+            Console.WriteLine("");
             Console.WriteLine("---- VER DOCTORES ----");
             Console.WriteLine("---------------------------");
             doctorService.ShowDoctors();
@@ -53,9 +59,55 @@ do
             Console.ReadLine();
             break;
         case 5:
+            Console.WriteLine("");
             Console.WriteLine("---- VER DOCTORES POR ESPECIALIDAD ----");
             Console.WriteLine("---------------------------");
             doctorService.ShowDoctorsBySpecialty();
+            Console.WriteLine("");
+            Console.WriteLine("Presione ENTER para continuar...");
+            Console.ReadLine();
+            break;
+        case 6:
+            Console.WriteLine("");
+            Console.WriteLine("---- REGISTRAR CITA ----");
+            Console.WriteLine("---------------------------");
+            appointmentService.AddAppointment();
+            Console.WriteLine("");
+            Console.WriteLine("Presione ENTER para continuar...");
+            Console.ReadLine();
+            break;
+        case 7:
+            Console.WriteLine("");
+            Console.WriteLine("---- VER CITAS ----");
+            Console.WriteLine("---------------------------");
+            appointmentService.ShowAppointments();
+            Console.WriteLine("");
+            Console.WriteLine("Presione ENTER para continuar...");
+            Console.ReadLine();
+            break;
+        case 8:
+            Console.WriteLine("---- CAMBIAR ESTADO DE CITA ----");
+            Console.WriteLine("---------------------------");
+            appointmentService.EditStatusAppointment();
+            Console.WriteLine("");
+            Console.WriteLine("Presione ENTER para continuar...");
+            Console.ReadLine();
+            break;
+
+        case 9:
+            Console.WriteLine("");
+            Console.WriteLine("---- VER CITAS DE PACIENTE ----");
+            Console.WriteLine("---------------------------");
+            appointmentService.ShowAppointmentsByDoc();
+            Console.WriteLine("");
+            Console.WriteLine("Presione ENTER para continuar...");
+            Console.ReadLine();
+            break;
+        case 10:
+            Console.WriteLine("");
+            Console.WriteLine("---- VER CITAS DE DOCTOR ----");
+            Console.WriteLine("---------------------------");
+            appointmentService.ShowAppointmentsByDoctor();
             Console.WriteLine("");
             Console.WriteLine("Presione ENTER para continuar...");
             Console.ReadLine();

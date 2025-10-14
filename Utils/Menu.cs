@@ -14,6 +14,11 @@ public class Menu
         Console.WriteLine("3. Registrar doctor");
         Console.WriteLine("4. Ver doctores");
         Console.WriteLine("5. Ver doctores por especialidad");
+        Console.WriteLine("6. Registrar cita medica");
+        Console.WriteLine("7. Ver citas medicas");
+        Console.WriteLine("8. Cambiar estado de uan cita");
+        Console.WriteLine("9. Ver citas de paciente");
+        Console.WriteLine("10. Ver citas de doctor");
         Console.WriteLine("-----------------------------------------------");
         Console.Write("Seleccione una opción: ");
 

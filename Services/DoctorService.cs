@@ -21,7 +21,7 @@ public class DoctorService
             string name = Console.ReadLine() ?? string.Empty;
             if (string.IsNullOrWhiteSpace(name))
             {
-                Console.WriteLine("Error: El nombre no puede estar vacío.");
+                Console.WriteLine("El nombre no puede estar vacío.");
                 return;
             }
 
@@ -29,7 +29,7 @@ public class DoctorService
             Console.WriteLine("Ingrese el número de documento del doctor:");
             if (!int.TryParse(Console.ReadLine(), out int docuemnt))
             {
-                Console.WriteLine("Error: El documento es invalido.");
+                Console.WriteLine("El documento es invalido.");
                 return;
             }
 
@@ -37,7 +37,7 @@ public class DoctorService
                 .FirstOrDefault(p => p.docuemnt == docuemnt);
             if (existing != null)
             {
-                Console.WriteLine("Error: Ya existe un doctor con ese documento.");
+                Console.WriteLine("Ya existe un doctor con ese documento.");
                 return;
             }
 
@@ -46,7 +46,7 @@ public class DoctorService
             string specialty = Console.ReadLine() ?? string.Empty;
             if (string.IsNullOrWhiteSpace(specialty))
             {
-                Console.WriteLine("Error: La especialidad no puede estar vacía.");
+                Console.WriteLine("La especialidad no puede estar vacía.");
                 return;
             }
 
@@ -54,7 +54,7 @@ public class DoctorService
             Console.WriteLine("Ingrese el numero de telefono del doctor:");
             if (!int.TryParse(Console.ReadLine(), out int phone))
             {
-                Console.WriteLine("Error: El telefono es invalido.");
+                Console.WriteLine("El telefono es invalido.");
                 return;
             }
 
@@ -64,6 +64,11 @@ public class DoctorService
             if (string.IsNullOrWhiteSpace(email))
             {
                 Console.WriteLine("Error: El email no puede estar vacío.");
+                return;
+            }
+            if (!email.Contains('@'))
+            {
+                Console.WriteLine("El email debe contener '@' para ser válido.");
                 return;
             }
 
